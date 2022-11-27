@@ -1,0 +1,184 @@
+
+/* Universal Selector */
+* {
+  margin:0;
+  padding:0;  
+}
+
+/*Because I have my colors named
+I will not be doing a :root psuedo-class selector
+since there is no point in organizing
+them with variables; they are self-
+organizing */
+
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: lightskyblue;
+  color: darkblue;
+}
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  display: block;
+  padding: 60px 0;
+}
+/*don't delete 60px 0, it just makes the button look weird*/
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: lightskyblue;
+}
+/*I kept the position fixed because
+I liked the way it look having the heading
+move */
+header {
+  position: fixed;
+  border-bottom: 10px solid darkblue;
+}
+/*I kind of want to add a dark top border */
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px lightskyblue;
+  color: darkblue;    
+}
+
+.figure {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  /*aligns flex items along the cross-axis
+  of the current line of the flex container
+  (which was probably left -> right */
+  padding: 20px;
+  margin: 20px;
+}
+/*lines 69 and 170 helped me to get them all to behave
+like inline elements probably because they are flex
+which means they have some properties of inline and
+block elements. The align-items helped me specify
+how the elements should be aligned. I 
+just needed* (edit 1 week later) to figure out how 
+to move pigeons */
+
+.image {
+  display: inline; 
+  position: center;
+  /*I finally figured it out. This code
+  down here and the align-items:center 
+  was a life save; */
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px darkblue;
+  background-color:  lightskyblue;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px darkblue;
+  border-radius: 20px;
+}
+
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid darkblue;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: darkblue;
+  color: lightskyblue;
+}
+ 
+/* Class Selectors */
+.text-center {
+  left: 50px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.text-right {
+  display: inline;
+  text-align: right;
+}
+
+.right-gif {
+  display:inline;
+}
+.left-gif {
+
+  /*
+  position:relative; */
+  display:inline;
+
+}
+
+/* ID Selectors */
+/*describes behavior of input blocks */
+#name { 
+  display:flex;
+  height: 20px;
+}
+
+#email {
+  display:flex;
+  height: 100px;
+}
+/*flex will give it inline features with a 
+few block capabilities */
+
+#form {
+  display:inline;
+}
+/*the ID selector will override main's type selector */
+
+/*I want the button to take me to a different page
+that says Your message was sent. We made sure of
+it. But what do 'they' get out of it?*/
