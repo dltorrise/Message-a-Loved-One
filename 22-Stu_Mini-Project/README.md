@@ -1,8 +1,16 @@
-# Module 01 Mini-Project: Landing Page
+# My website
+
+## Goals
+
+- Showcase my growth in Web Development by deploying several pages at different skill levels
+- Blend my interest in horror games with Web Development
+- Fix original template so that it is compatible and aesthetic with a mobile device (mobile-first design)
+ 
+## Class Provided README
 
 In this mini-project, you will build a landing page using HTML and CSS. While you will be responsible for your own landing page, you will work in a group to brainstorm and share ideas.
 
-## Instructions
+### Instructions
 
 Work in your group to implement the following user stories:
 
@@ -16,7 +24,7 @@ Work in your group to implement the following user stories:
 
 * As a client, I want the landing page to have a polished and accessible UI.
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 * It's done when the page uses semantic HTML elements.
 
@@ -42,7 +50,7 @@ Work in your group to implement the following user stories:
 
 * It's done when the page is deployed to GitHub Pages.
 
-## 💡 Notes
+### 💡 Notes
 
 Follow these instructions to deploy your project to GitHub Pages:
 
@@ -60,7 +68,7 @@ You can also refer to this [YouTube video on enabling GitHub Pages](https://yout
 
 > **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
 
-## 💡 Hints
+### 💡 Hints
 
 Refer to the documentation:
 
@@ -80,7 +88,7 @@ Refer to the documentation:
 
 * [Full-Stack Blog HTML Cheatsheet](https://coding-boot-camp.github.io/full-stack/html/html-cheatsheet)
 
-## 🏆 Bonus
+### 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your group to further your knowledge:
 
