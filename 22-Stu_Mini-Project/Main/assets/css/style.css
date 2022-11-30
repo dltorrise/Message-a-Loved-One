@@ -65,7 +65,7 @@ footer {
   color: darkblue;    
 }
 
-.figure {
+.background {
   margin: auto;
   width: 80%;
   display: flex;
@@ -85,14 +85,16 @@ just needed* (edit 1 week later) to figure out how
 to move pigeons */
 
 .image {
-  display: inline; 
+  display: flex; 
   position: center;
   /*I finally figured it out. This code
   down here and the align-items:center 
   was a life save; */
-  margin-left: 200px;
+  margin-left: 180px;
   margin-right: 200px;
 }
+/* I do wonder why justify-content: space-around
+doesn't work... */
 
 section {
   margin-bottom: 0;
@@ -153,11 +155,7 @@ button {
   display:inline;
 }
 .left-gif {
-
-  /*
-  position:relative; */
   display:inline;
-
 }
 
 /* ID Selectors */
@@ -177,6 +175,25 @@ few block capabilities */
 #form {
   display:inline;
 }
+
+@media screen and (max-width: 576px) {
+  .right-gif,
+  .left-gif {
+  display:none;
+  }
+/*this bottom one is not working for some reason */
+  .image {
+    align-self: flex-start;
+  }
+
+  main div iframe {
+    display: none
+  }
+}
+/*always do a mobile first design
+/*definitely fix this media query so it's compatible with
+a phone */
+
 /*the ID selector will override main's type selector */
 
 /*I want the button to take me to a different page
@@ -189,3 +206,11 @@ your emotions from your words to sustain
 pseudo-visceral beings.
 
 Your message was sent. We made sure of it. */
+
+/*all i want to do is make one of the input
+boxes bigger and align them */
+
+/* loading screen with gif */
+
+/*result page
+"Your soul has been harvested. Thank you*/
