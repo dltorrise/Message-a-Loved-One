@@ -2,7 +2,7 @@
 
 Still in progress
 
-	[Link here](https://dltorrise.github.io/Mini-Project-1/
+	[Link here](https://dltorrise.github.io/Mini-Project-1/)
 
 ## Goals
 
