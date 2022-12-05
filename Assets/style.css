@@ -176,20 +176,6 @@ few block capabilities */
   display:inline;
 }
 
-@media screen and (max-width: 576px) {
-  .right-gif,
-  .left-gif {
-  display:none;
-  }
-/*this bottom one is not working for some reason */
-  .image {
-    align-self: flex-start;
-  }
-
-  main div iframe {
-    display: none
-  }
-}
 /*always do a mobile first design
 /*definitely fix this media query so it's compatible with
 a phone */
