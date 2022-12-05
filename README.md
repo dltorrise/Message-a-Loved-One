@@ -1,5 +1,9 @@
 # My website
 
+Still in progress
+
+	[Link here](https://dltorrise.github.io/Mini-Project-1/)
+
 ## Goals
 
 - Showcase my growth in Web Development by deploying several pages at different skill levels
