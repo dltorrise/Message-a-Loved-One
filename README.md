@@ -2,9 +2,10 @@
 
 Still in progress
 
-	[Link here](https://dltorrise.github.io/Mini-Project-1/)
+[Link here](https://dltorrise.github.io/Mini-Project-1/)
 
-![My Vision](/Users/danielletorrise/Documents/Assignments/Mini-Project-1/Assets/images/Screen Shot 2022-12-05 at 1.00.52 AM.png)
+
+![My Vision]("/Users/danielletorrise/Documents/Assignments/Mini-Project-1/Assets/images/Screen Shot 2022-12-05 at 1.00.52 AM.png")
 	
 
 ## Goals
