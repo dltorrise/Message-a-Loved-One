@@ -5,8 +5,7 @@ Still in progress
 [Link here](https://dltorrise.github.io/Mini-Project-1/)
 
 
-![My Vision](/Users/danielletorrise/Documents/Assignments/Mini-Project-1/Assets/images/screenshot-of-mini-project-1.png)
-
+![My Vision](Assets/images/screenshot-of-mini-project-1.png)
 	
 
 ## Goals
