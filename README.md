@@ -6,6 +6,7 @@ Still in progress
 
 
 ![My Vision](/Users/danielletorrise/Documents/Assignments/Mini-Project-1/Assets/images/screenshot-of-mini-project-1.png)
+
 	
 
 ## Goals
