@@ -176,6 +176,14 @@ few block capabilities */
   display:inline;
 }
 
+@media screen and (min-width: 768px) {
+
+.text-right {
+  display: flex;
+  flex-direction: column;
+}
+  
+}
 /*always do a mobile first design
 /*definitely fix this media query so it's compatible with
 a phone */
