@@ -26,7 +26,8 @@ h2 {
 }
 
 main {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 60px 0;
 }
 /*don't delete 60px 0, it just makes the button look weird*/
@@ -146,16 +147,17 @@ button {
   margin-right: 50px;
 }
 
-.text-right {
-  display: inline;
-  text-align: right;
-}
+
 
 .right-gif {
   display:inline;
 }
 .left-gif {
   display:inline;
+}
+
+.hidden {
+  display: none;
 }
 
 /* ID Selectors */
@@ -176,11 +178,25 @@ few block capabilities */
   display:inline;
 }
 
-@media screen and (min-width: 768px) {
-
 .text-right {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 320px) {
+
+  .text-right {
+    display: inline;
+    text-align: right;
+  }
+
+  .visible {
+    display: none;
+  }
+
+.hidden {
+  display:flex;
+  align-self: center;
 }
   
 }
