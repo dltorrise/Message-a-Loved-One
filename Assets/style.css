@@ -85,7 +85,7 @@ how the elements should be aligned. I
 just needed* (edit 1 week later) to figure out how 
 to move pigeons */
 
-.image {
+.image { 
   display: flex; 
   position: center;
   /*I finally figured it out. This code
@@ -93,6 +93,10 @@ to move pigeons */
   was a life save; */
   margin-left: 180px;
   margin-right: 200px;
+}
+
+.mobile-image {
+  display: none;
 }
 /* I do wonder why justify-content: space-around
 doesn't work... */
@@ -183,23 +187,22 @@ few block capabilities */
   flex-direction: column;
 }
 
-@media screen and (min-width: 320px) {
 
-  .text-right {
-    display: inline;
-    text-align: right;
-  }
 
-  .visible {
-    display: none;
-  }
-
-.hidden {
-  display:flex;
-  align-self: center;
-}
+@media (max-width: 690px) {
   
+.background {
+  display: none;
 }
+.mobile-image {
+  display: block;
+}
+
+img {
+  display: block;
+}
+}
+
 /*always do a mobile first design
 /*definitely fix this media query so it's compatible with
 a phone */
