@@ -201,6 +201,15 @@ few block capabilities */
 img {
   display: block;
 }
+
+#name-input {
+  width: 250px;
+}
+
+#message-input {
+  width: 250px;
+  height: 100px;
+}
 }
 
 /*always do a mobile first design
