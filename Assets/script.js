@@ -14,8 +14,8 @@ submit.addEventListener('submit', (e) => {
         SecureToken : securityKey,
         To : 'dltorrise@gmail.com',
         From : "dltorrise@gmail.com",
-        Subject : "Message from" + nameInput,
-        Body : messageInput
+        Subject : "Message from" + nameInput.value,
+        Body : "Message from SMTJS SERVER: \n\n" + messageInput.value
     }).then(
       message => alert(message)
     );
