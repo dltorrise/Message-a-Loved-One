@@ -10,8 +10,6 @@ const securityKey = 'f7c01209-da41-4015-bbcb-d44d0a465341'
 submit.addEventListener('submit', (e) => {
     e.preventDefault()
     console.log('Submitted')
-    nameInput.value = ''
-    messageInput.value = ''
 //email code
     Email.send({
         SecureToken : securityKey,
