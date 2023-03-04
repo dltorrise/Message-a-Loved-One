@@ -17,8 +17,8 @@ submit.addEventListener('submit', (e) => {
         SecureToken : securityKey,
         To : 'dltorrise@gmail.com',
         From : "dltorrise@gmail.com",
-        Subject : "Message from " + nameInput.value.trim(),
-        Body : `<h3>Message from SMTJS SERVER: </h3>\n\n <p>${messageInput.value.trim()}</p>`
+        Subject : "Message from " + nameInput.value,
+        Body : `<h3>Message from SMTJS SERVER: </h3>\n\n <p>${messageInput.value}</p>`
     }).then(
       message => alert("Thank you. Your soul has been harvested.")
     );
