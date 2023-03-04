@@ -88,9 +88,6 @@ to move pigeons */
 .image { 
   display: flex; 
   position: center;
-  /*I finally figured it out. This code
-  down here and the align-items:center 
-  was a life save; */
   margin-left: 180px;
   margin-right: 200px;
 }
@@ -98,8 +95,7 @@ to move pigeons */
 .mobile-image {
   display: none;
 }
-/* I do wonder why justify-content: space-around
-doesn't work... */
+
 
 section {
   margin-bottom: 0;
@@ -109,7 +105,6 @@ section {
 }
 
 form {
-  /* Center the form on the page */
   margin: 0 auto;
   width: 500px;
   padding: 10px;
@@ -130,11 +125,17 @@ textarea {
   border: 1px solid darkblue;
 }
 
+
 textarea {
   vertical-align: top;
   height: 60px;
 }
-  
+ 
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
 #button {
   height: 40px;
   width: 120px;
@@ -156,6 +157,7 @@ textarea {
 .right-gif {
   display:inline;
 }
+
 .left-gif {
   display:inline;
 }
@@ -194,6 +196,7 @@ few block capabilities */
 .background {
   display: none;
 }
+
 .mobile-image {
   display: block;
 }
@@ -207,8 +210,18 @@ img {
 }
 
 #message-input {
+
   width: 250px;
   height: 100px;
+}
+
+.text-right ul li {
+  display: none;
+}
+
+header {
+  position: fixed;
+  border-bottom: none;
 }
 }
 
@@ -222,12 +235,7 @@ a phone */
 that says Your message was sent. We made sure of
 it. But what do 'they' get out of it?
 
-We appreciate your contributions. All forms 
-are submitted to our harvesters who will extract
-your emotions from your words to sustain
-pseudo-visceral beings.
 
-Your message was sent. We made sure of it. */
 
 /*all i want to do is make one of the input
 boxes bigger and align them */
