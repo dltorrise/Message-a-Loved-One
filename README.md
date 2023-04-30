@@ -12,6 +12,8 @@ I was considering adding a functionality where you could email yourself a copy o
 
 Currently, this is not a feature, and this is currently being looked at. 
 
+## Link and Screenshot
+
 [Link here](https://dltorrise.github.io/Message-a-Loved-One/)
 
 
