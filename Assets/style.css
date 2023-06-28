@@ -226,25 +226,11 @@ header {
 }
 }
 
-/*always do a mobile first design
-/*definitely fix this media query so it's compatible with
-a phone */
 
 /*the ID selector will override main's type selector */
 
-/*I want the button to take me to a different page
-that says Your message was sent. We made sure of
-it. But what do 'they' get out of it?
 
-
-
-/*all i want to do is make one of the input
-boxes bigger and align them */
-
-/* loading screen with gif */
-
-/*result page
-"Your soul has been harvested. Thank you*/
+/* for mobile phones */
 
 @media screen and (max-device-width: 600px) {
 
@@ -264,3 +250,4 @@ main {
   align-items: center;
 }
 }
+
